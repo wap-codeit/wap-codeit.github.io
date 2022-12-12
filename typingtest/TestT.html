@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+	<title>Typing Test</title>
+
+	<!-- link the CSS file here -->
+	<link rel="stylesheet" href="Tstyle.css">
+	<link rel="stylesheet" href="bg.css">
+	<link rel="stylesheet" href="nav.css">
+	
+	
+
+
+
+</head>
+<body><ul class="background">
+<!-- nav bar-->
+<div class="topnav" id="myTopnav">
+	<b><a href="#home" class="active">WAP</a></b>
+	<a href="#news">News</a>
+	<a href="#contact">Contact</a>
+	<div class="dropdown">
+	  <button class="dropbtn">Dropdown 
+		<i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-content">
+		<a href="#">Link 1</a>
+		<a href="#">Link 2</a>
+		<a href="#">Link 3</a>
+	  </div>
+	</div> 
+	<a href="#about">About</a> 
+	<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  
+
+  
+<!-- nav bar-->
+
+
+<!-- moving bg -->
+<br> <br>
+	
+		<div class="container">
+		  <div class="heading">
+			&#60;tt&#62;Typing Test &#60;/tt&#62;
+		  </div>
+		  <div class="header">
+			<div class="wpm">
+			  <div class="header_text">WPM</div>
+			  <div class="curr_wpm">100</div>
+			</div>
+			<div class="cpm">
+			  <div class="header_text">CPM</div>
+			  <div class="curr_cpm">100</div>
+			</div>
+			<div class="errors">
+			  <div class="header_text">Errors</div>
+			  <div class="curr_errors">0</div>
+			</div>
+			<div class="timer">
+			  <div class="header_text">Time</div>
+			  <div class="curr_time">60s</div>
+			</div>
+			<div class="accuracy">
+			  <div class="header_text">Accuracy</div>
+			  <div class="curr_accuracy">100</div>
+			</div>
+		  </div>
+	   <br>
+		  <div class="quote">
+			Start typing by clicking in the box below.
+			<k class="fa fa-level-down" aria-hidden="true"></k>
+		  </div>  <br>
+		  <textarea class="input_area"
+			placeholder="start typing here..."
+			oninput="processCurrentText()"
+			onfocus="startGame()">
+		  </textarea>
+
+<br>
+
+		  <button class="restart_btn"
+			onclick="resetValues()">
+			Restart
+		  </button>
+		</div>
+	   
+		<!-- moving bg -->
+		
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		 </ul>
+
+
+
+
+
+
+
+
+		<!-- link the JavaScript file here -->
+		<script src="game.js">
+		</script> 
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+			</script>
+	  </body>
+	  </html>

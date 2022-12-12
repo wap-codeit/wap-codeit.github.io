@@ -1,0 +1,113 @@
+
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+    
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .heading {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #ffffff;
+    }
+    
+    .header {
+    display: flex;
+    align-items: center;
+    }
+    
+    .timer, .errors, .accuracy,
+    .cpm, .wpm {
+        transition: all .5s ease;
+        color: #fff;
+        border: 3px solid white;
+        text-align: center;
+        line-height: 1;
+        font-size: 17px;
+        background-color : transparent;
+        padding: 18px;
+        outline: none;
+        border-radius: 4px;
+
+        margin: 8px;
+    }
+    
+    .cpm, .wpm {
+    display: none;
+    }
+    
+    .header_text {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    }
+    
+    .curr_time, .curr_errors,
+    .curr_accuracy, .curr_cpm,
+    .curr_wpm {
+    font-size: 2.75rem;
+    }
+    
+    .quote {
+        transition: all .5s ease;
+
+        font-size: 1.8rem;
+        margin: 10px;
+
+        color: #fff;
+        border: 3px solid white;
+        text-align: center;
+        line-height: 1;
+        background-color : transparent;
+        padding: 20px;
+        outline: none;
+        border-radius: 4px;
+    }
+    
+    .input_area {
+        height: 40%;
+        width: 40%;
+        color: #fff;
+        border: 3px solid white;
+        text-align: center;
+        line-height: 1;
+        font-size: 20px;
+        background-color : transparent;
+        padding: 0px;
+        outline: none;
+        border-radius: 4px;
+    }
+    
+    .restart_btn {
+        transition: all .5s ease;
+        color: #fff;
+        border: 3px solid white;
+        text-align: center;
+        line-height: 1;
+        font-size: 20px;
+        background-color : transparent;
+        padding: 10px;
+        outline: none;
+        border-radius: 4px;
+    } 
+    .restart_btn:hover {
+        color: #000000;
+        background-color: #fff;
+    }
+    
+
+
+    .incorrect_char {
+    color: #ff0000;
+    text-decoration: underline;
+    }
+    
+    .correct_char {
+    color: #00ff6a;
+    }
+    
+    /* nav bar */
+
+    
